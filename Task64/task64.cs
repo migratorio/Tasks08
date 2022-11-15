@@ -25,7 +25,7 @@ static int EnterNumberNatural(string message, string messageError)
     }
 }
 //----------------------------------------------------------------------------
-// Функция принимает натуральное число N  и возвращает сумму чисел от 1 до N
+// Функция принимает натуральное число N  и возвращает все натуральные числа от 1 до N
 string CrearOrder(int start, int end)
 {
     if (start == end)
